@@ -7,6 +7,7 @@ Estrutura de Dados e Algoritmos (DSA)
 ```
 - Carlos Nogueira
 - Eduardo Mendes
+- Felipe Fontoura
 - Giovanni Bassi
 - Horácio Fiasco
 - Samuel Ferreira

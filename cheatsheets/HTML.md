@@ -86,10 +86,50 @@ Milhares de requisições por segundo.
 
 - 2022: ChatGPT, a capacidade de analisar grandes volumes de dados.
 
-## Forms
+## Old and New
 
-**Boilerplate**
+**Old**
 
 ```html
+	<h3>significação semântica</h3>
+	<p><strong>(ênfase)</strong></p>
+	<p><em>(ênfase)</em></p>
+	<p>2<sup>3</sup></p>
+	<p>2<sub>3</sub></p>
+	
+	<!-- melhor evitar -->
+	<h3 align="center">estilização visual</h3>
+	<p>(clean)</p>
+	<p><b>(negrito)</b></p>
+	<p><i>(itálico)</i></p>
+	<p><u>(sublinhado)</u></p>
+	<p><s>(riscado)</s></p>
+```
 
+**New**
+
+```html
+	<h3 class="centrado">estilização visual</h3>
+	<p class="negrito">(negrito)</p>
+	<p class="italico">(itálico)</p>
+	<p class="sublinhado">(sublinhado)</p>
+	<p class="riscado">(riscado)</p>
+```
+
+```css
+.centrado {
+  text-align: center;
+}
+.negrito {
+  font-weight: bold;
+}
+.italico {
+  font-style: italic;
+}
+.sublinhado {
+  text-decoration: underline;
+}
+.riscado {
+  text-decoration: line-through;
+}
 ```
