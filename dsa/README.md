@@ -6,7 +6,8 @@ What is the BigO of the code below:
 **visual abstractions**
 
 [W3Schools](https://www.w3schools.com/dsa/)
-[cpython](https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c)
+
+[Algorithm Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 ## Big O
 
@@ -49,14 +50,18 @@ Selection, Inserction, Bubble Sort ...
 
 **Existe, mas não usual: O(2^N), O(raiz de N), O(N!)**
 
-## Arrays
+# Data Structures and Algorithms
+
+***Se você entender arrays e linked lists, todo o resto será deduzido a partir da práxis.***
+
+## Arrays (acesso via índices)
 
 Estruturas de dados de tamanhos fixos que armazenam elementos em posições contíguas de memória.
 
 - O(1) para acessar um elemento pelo índice.
 - O(n) para buscar um elemento no pior caso possível, pois seria necessário verificar todos.
 
-## Linked List
+## Linked List (nós e ponteiros)
 
 Estrutura de dados linear composta por uma sequência de nós, onde cada nó contém valor e um ponteiro.
 
@@ -78,14 +83,37 @@ Estrutura de dados linear composta por uma sequência de nós, onde cada nó con
 
 Estrutura de dados usada para armazenar pares de chave-valor, oferecendo um acesso extremamente eficiente às informações. Sua principal vantagem é a capacidade de realizar operações em tempo constante O(1).
 
-- **chave** é o identificador único usado para armazenar ou buscar um valor.
-- **valor** é a informação associada à chave.
-- **função de hash** é quem transforma a chave em um número. O mesmo input deve gerar o mesmo output sempre.
-- **Load Fator** é a diferença de tamanho entre a quantidade de dados a quantidade de dados que a gente possui e a nossa estrutura de dados.
-- **Collisions** 
+## Stack - Empilhando Coisas
 
+- LIFO (Last in, First out);
+- Put / Append / Push (adiciona um item no topo da pilha) and Pop / Remove (apaga o item no topo da pilha e retorna seu valor);
 
+## Binary Tree
 
+- Node (Head) - contém a referência para os dois nós que se seguem.
+- Left (Node)
+- Right (Node)
 
+### Tree (Genérica)
 
+- Node (Root) - contém referência para vários outros nós.
 
+Um exemplo é o sistema de arquivos do computador.
+
+### B-Tree (não é uma Binary Tree)
+
+- Uma árvore auto-balanceável que segue uma série de regras.
+
+### Heap
+
+- Árvore Binária que satisfaz uma dada condição, como um valor mínimo ou um valor máximo, etc.
+
+### Trie (or prefix-tree)
+
+Um exemplo é o autocomplete de palavras.
+
+## Grafos
+
+- Nódulos e Vértices (com pesos);
+
+Um exemplo é o Google Maps calculando o menos caminho para um destino.
